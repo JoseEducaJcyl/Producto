@@ -1,13 +1,14 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-  //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-  // to see how IntelliJ IDEA suggests fixing it.
-  IO.println(String.format("Hello and welcome!"));
-
-  for (int i = 1; i <= 5; i++) {
-    //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-    // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-    IO.println("i = " + i);
-  }
+// Clase Main con el metodo main para ejecutar el codigo
+public class Main {
+    public static void main(String[] args) {
+        // Se crean dos objetos que se extiende de la clase Producto
+        // producto1 y producto2
+        Producto producto1 =  new Eletronico("iphone",999.9,5,
+                "Un año");
+        Producto producto2 = new Alimento("pan",2.99,100,
+                "01/12/2025");
+        // Se muestra sus datos a traves del metodo toString()
+        System.out.println("Producto 1: " + producto1.toString());
+        System.out.println("Producto 2: " + producto2.toString());
+    }
 }
