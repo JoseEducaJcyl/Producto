@@ -2,7 +2,7 @@
 public class Eletronico extends Producto{
     private String garantia;
 
-    // Constructor que hereda los atributos de Productos
+    // Constructor que hereda los atributos de Producto
     public Eletronico(String nombre, double precio, int cantidad, String garantia) {
         super(nombre, precio, cantidad);
         this.garantia = garantia;
