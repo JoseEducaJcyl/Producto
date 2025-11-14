@@ -2,7 +2,7 @@
 public class Alimento extends Producto {
     private String fechaCaducidad;
 
-    // Constructor que hereda los atributos de Productos
+    // Constructor que hereda los atributos de Producto
     public Alimento(String nombre, double precio, int cantidad, String fechaCaducidad) {
         super(nombre, precio, cantidad);
         this.fechaCaducidad = fechaCaducidad;
