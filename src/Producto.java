@@ -1,6 +1,6 @@
-// Clase abstracta con los atributos
+// Clase con los atributos
 // nombre, nombre, precio y cantidad
-public abstract class Producto {
+public class Producto {
     protected String nombre;
     protected double precio;
     protected int cantidad;
